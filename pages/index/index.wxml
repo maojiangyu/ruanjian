@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+<view class="container">
+  <view class="change1">感谢使用2048小程序</view>
+	<view wx:for-items="{{gameList}}" wx:for-index="idx" wx:key="idx" class="usermotto">
+			
+		<button type="primary" disabled="{{disabled}}" bindtap="start{{item}}"> {{item}} </button>
+	</view>
+
+<view>
+	<image src="{{imgsrc}}"></image>
+</view>
+	<text class="more">更多内容，敬请期待...</text>
+</view>

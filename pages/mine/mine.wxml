@@ -1,0 +1,8 @@
+<!--pages/mine.wxml-->               
+  <view>                        
+  <navigator open-type="navigate" wx:for="{{gonglve}}" wx:key="key">
+        <text class="change1">{{item.title}}</text>
+        <image src="{{item.imgurl}}" ></image>
+        <text>地址：{{item.url}}</text>
+    </navigator>
+  </view>

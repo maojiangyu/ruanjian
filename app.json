@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/2048/2048",
+    "pages/mine/mine",
+    "pages/xinxi/xinxi"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "2048小游戏"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "游戏",
+        "iconPath": "./assets/diamond.png",
+        "selectedIconPath": "./assets/diamond.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "./assets/star.png",
+        "selectedIconPath": "./assets/star.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "攻略",
+        "iconPath": "./assets/book.jpg",
+        "selectedIconPath": "./assets/book.jpg"
+      },
+      {
+        "pagePath": "pages/xinxi/xinxi",
+        "text": "个人信息",
+        "iconPath": "./assets/people.jpg",
+        "selectedIconPath": "./assets/people.jpg"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}
